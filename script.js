@@ -121,7 +121,7 @@ window.onscroll = function () {
         
 
         // mobile deviuce responsive
-        if(window.screenX < 576){
+        if(screen.width < 576){
             if(window.scrollY<800){
                 scroll_p.style.fontSize = (window.scrollY / 15) + "px";
             }
