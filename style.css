@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .navbt{
     background-color: #f37354;
     border-radius: 25px;
@@ -128,5 +132,109 @@ footer>section>img{
     font-size: 6.25vw;
    }
 
+    
+}
+
+
+@media screen and (min-width:577px) and (max-width: 768px) {
+    .banner-image h1 {
+        font-size: calc(3.7rem + 1.5vw);
+    }
+    main section p.pp {
+        color: rgb(88, 85, 85);
+        font-size: 33px;
+        margin-bottom: 30px;
+        position: relative;
+        bottom: 0px;
+        top: 60%;
+    }
+    
+}
+
+@media screen and (min-width:769px) and (max-width: 992px) {
+    main section p.pp {
+        color: rgb(88, 85, 85);
+        font-size: 55px;
+        margin-bottom: 30px;
+        position: relative;
+        bottom: 0px;
+        top: 33%;
+    }
+    #cewd{
+        animation-duration: 3s;
+    }
+    @keyframes anim {
+        0%{
+            left: -40%;
+        }
+        50%{
+            left: 40%;
+            
+        }
+        
+        
+        100%{
+            left: -40%;
+        }
+        
+    }
+    
+}
+
+@media screen and (min-width:993px) and (max-width: 1200px) {
+    #cewd{
+        animation-duration: 4s;
+    }
+    main section p.pp {
+        color: rgb(88, 85, 85);
+        font-size: 65px;
+        margin-bottom: 30px;
+        position: relative;
+        bottom: 0px;
+        top: 21%;
+    }
+    @keyframes anim {
+        0%{
+            left: -45%;
+        }
+        50%{
+            left: 45%;
+            
+        }
+        
+        
+        100%{
+            left: -45%;
+        }
+        
+    }
+    
+}
+
+
+@media screen and (min-width:1201px) and (max-width:1400) {
+    main section p.pp {
+        color: rgb(88, 85, 85);
+        font-size: 70px;
+        margin-bottom: 30px;
+        position: relative;
+        bottom: 0px;
+        top: 30%;
+    }
+    @keyframes anim {
+        0%{
+            left: -35%;
+        }
+        50%{
+            left: 35%;
+            
+        }
+        
+        
+        100%{
+            left: -35%;
+        }
+        
+    }
     
 }
